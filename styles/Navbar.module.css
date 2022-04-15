@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #d1411e;
+}
+
+.item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex:1;
+    color: white;
+}
+
+.item:nth-child(2){
+    flex: 3;
+    justify-content: center;
+
+}
+
+.item:last-child{
+    justify-content: flex-end;
+
+}
+
+.callButton {
+    border-radius: 40%;
+    padding: 10px;
+    background-color: white;
+    flex-shrink: 0;
+}
+
+.texts {
+    margin-left: 20px;
+}
+
+.text:first-child {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.text:last-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listItem {
+    margin: 20px;
+    font-weight: 500;
+    flex-shrink: 0;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 20px;
+    border-radius: 50%;
+    color:#d1411e;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
